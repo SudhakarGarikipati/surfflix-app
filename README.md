@@ -39,4 +39,15 @@ Browse(Available Media Files)
 SurfFlixGPT
     -SearchBar
     -Moview Suggestion
-    
+
+Git Commands
+Create repository "surfflix-app"
+    git init
+    git remote add origin https://github.com/SudhakarGarikipati/surfflix-app.git
+    git branch
+    git branch -M main
+    git add .
+    git commit -m "Initial commit"
+    git push -u origin main
+
+
