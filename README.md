@@ -50,4 +50,25 @@ Create repository "surfflix-app"
     git commit -m "Initial commit"
     git push -u origin main
 
+Routing implementation
+npm install react-router-dom 
+import { createBrowserRouter } from "react-router";
+import { RouterProvider } from "react-router-dom";
+const appRouter = createBrowserRouter([
+    {
+      path: "/",
+      element:<Component/>
+    },
+    {
 
+    }
+    ])
+
+return(
+    <div>
+     <RouterProvider router={appRouter} />
+    <div>
+)
+https://assets.nflxext.com/ffe/siteui/vlv3/c81956f1-5750-454c-9b3c-7a4d990d3d06/web/US-en-20251208-TRIFECTA-perspective_bcd79522-5a87-4df0-9d4e-88afa5c7a5c2_large.jpg
+
+https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2025-12-03/consent/87b6a5c0-0104-4e96-a291-092c11350111/019ae4b5-df0c-7f5c-bf9d-7c8da3876c6e/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png

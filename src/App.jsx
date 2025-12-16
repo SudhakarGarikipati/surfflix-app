@@ -2,6 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Body from './components/body'
+import Header from './components/header'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +19,7 @@ function App() {
         </a>
       </div> 
       <h1>Vite + React</h1>*/}
-      <div className='bg-black'>
+      {/* <div className='bg-black'>
       <div className='w-8/12 m-auto text-left'>
         <label className='text-l font-bold text-red-500'>My first app with VIte</label>
       </div>
@@ -26,7 +28,9 @@ function App() {
           count is {count}
         </button>
       </div>
-      </div>
+      </div> */}
+      <Header/>
+      <Body/>
     </>
   )
 }
